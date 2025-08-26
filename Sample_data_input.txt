@@ -1,0 +1,29 @@
+Sample data input :
+
+Step-1: To run the app_1.py file, go to terminal and run as ->
+streamlit run app_1.py
+
+Step-2:
+Give input data as ->
+| Feature                     | Sample Value | Meaning                      |
+| --------------------------- | ------------ | ---------------------------- |
+| **id**                      | 10001        | Unique row identifier        |
+| **week**                    | 12           | Week number in dataset       |
+| **center\_id**              | 55           | Fulfilment center ID         |
+| **meal\_id**                | 1885         | Meal identifier              |
+| **checkout\_price**         | 245.50       | Price after discounts        |
+| **base\_price**             | 300.00       | Original price               |
+| **emailer\_for\_promotion** | 1            | 1 = promo email sent         |
+| **homepage\_featured**      | 0            | 0 = not featured on homepage |
+
+Another set of input ->
+| Feature                     | Sample Value | Meaning                      |
+| --------------------------- | ------------ | ---------------------------- |
+| **id**                      | 12000        | Unique row identifier        |
+| **week**                    | 15           | Week number in dataset       |
+| **center\_id**              | 10           | Fulfilment center ID         |
+| **meal\_id**                | 2600         | Meal identifier              |
+| **checkout\_price**         | 320.00       | Price after discounts        |
+| **base\_price**             | 320.00       | Original price               |
+| **emailer\_for\_promotion** | 0            | 0 = promo email sent         |
+| **homepage\_featured**      | 0            | 0 = not featured on homepage |
